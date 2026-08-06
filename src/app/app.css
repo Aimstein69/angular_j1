@@ -13,22 +13,19 @@
 
 app-header {
   grid-area: header;
-  border: 5px solid red;
 }
 
 nav {
   grid-area: nav;
-  border: 5px solid yellow;
 }
 
 main {
   grid-area: main;
-  border: 5px solid blue;
+  border: 3px solid #a200ff;
 }
 
 footer {
   grid-area: footer;
-  border: 5px solid green;
   background-color: black;
   display: flex;
   justify-content: center;

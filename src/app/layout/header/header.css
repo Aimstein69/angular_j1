@@ -1,0 +1,41 @@
+:host {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1.25rem;
+  height: 70px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #ff01ae 5%, #d901ff 50%, #a200ff 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(11, 19, 43, 0.12);
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+/* optional small helper for a subtitle if needed */
+.header-subtitle {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+@media (max-width: 720px) {
+  :host {
+    padding: 0 0.8rem;
+    height: 56px;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+}

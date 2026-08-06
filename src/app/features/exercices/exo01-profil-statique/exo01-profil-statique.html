@@ -1,0 +1,9 @@
+<h3>exo01 - profil statique</h3>
+<img [src]="imageUrl" alt="profil" />
+
+<p>gender:{{ gender }}</p>
+<p>lastname:{{ lastname }}</p>
+<p>firstname:{{ firstname }}</p>
+<p>email:{{ email }}</p>
+<p>birthdate:{{ birthdate.toLocaleDateString('fr-be', { dateStyle: 'medium' }) }}</p>
+<p>languages:{{ languages }}</p>

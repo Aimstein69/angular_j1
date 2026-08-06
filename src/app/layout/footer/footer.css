@@ -1,8 +1,10 @@
 :host {
-  background-color: rgb(32, 30, 30);
+  background-color: rgb(233, 9, 218);
+  font-weight: 400;
 }
 
 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   text-align: center;
 }
