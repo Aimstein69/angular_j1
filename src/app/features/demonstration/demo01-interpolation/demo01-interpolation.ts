@@ -5,7 +5,7 @@ import { User } from './models/user.model';
   selector: 'app-demo01-interpolation',
   imports: [],
   templateUrl: './demo01-interpolation.html',
-  styleUrl: './demo01-interpolation.css',
+  styleUrls: ['./demo01-interpolation.css'],
 })
 export class demo01Interpolation implements OnInit {
 maVariable1: string = "lucas";

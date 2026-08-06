@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-exo01-profil-statique',
   imports: [],
   templateUrl: './exo01-profil-statique.html',
-  styleUrl: './exo01-profil-statique.css',
+  styleUrls: ['./exo01-profil-statique.css'],
 })
 export class Exo01ProfilStatique {
   email:string="lucas@email.com";

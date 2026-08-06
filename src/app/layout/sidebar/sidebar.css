@@ -29,6 +29,10 @@
   display: block;
 }
 
+.active {
+  color: #0b5cff;
+}
+
 .brand-name {
   font-weight: 700;
   font-size: 1.05rem;

@@ -11,8 +11,7 @@ import { demo01Interpolation } from "./features/demonstration/demo01-interpolati
   selector: 'app-root',
   imports: [RouterOutlet, Header, Footer, Sidebar, Exo01ProfilStatique, demo01Interpolation],
   templateUrl: './app.html',
-  styleUrl: './app.css',
-  
+  styleUrls: ['./app.css'],
 })
 export class App {
   protected readonly title = signal('demo_angular');

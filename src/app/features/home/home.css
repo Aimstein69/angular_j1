@@ -1,0 +1,17 @@
+.home-page {
+  padding: 1rem;
+  color: #111827;
+}
+
+.home-page h2 {
+  margin: 0 0 0.85rem 0;
+  font-size: 1.75rem;
+  color: #0b5cff;
+}
+
+.home-page p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 640px;
+}
